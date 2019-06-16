@@ -6,7 +6,7 @@ import java.text.DateFormat._
 object FunctionDemo {
 
 
-  def debug(name:String):Unit = println("----- "+name+" 函数正在被执行"+"-----")
+  def debug(name:String):Unit = println("----- "+name+" 方法正在被执行"+"-----")
 
   def add(x:Int,y:Int):Int=x+y
 
@@ -72,6 +72,9 @@ object FunctionDemo {
 
 
     getInstantsParms()
+
+    println(add1(1,2,3))
+    println(add2(2,2))
   }
 
 
