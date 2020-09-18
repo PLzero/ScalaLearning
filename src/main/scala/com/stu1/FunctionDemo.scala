@@ -1,7 +1,9 @@
 package com.stu1
 
-import java.util.{Date, Locale}
 import java.text.DateFormat._
+import java.util.{Date, Locale}
+
+import scala.util.matching.Regex.Match
 
 object FunctionDemo {
 
@@ -55,6 +57,12 @@ object FunctionDemo {
     val list = List("One","Two","Three")
     val map = Map("a" -> "1","b" -> "2")
     println(map.get("a"))
+  }
+
+  def matchTest(x: Int): String = x match {
+    case 1 => "one"
+    case 2 => "two"
+    case _ => "many"
   }
 
 
