@@ -27,7 +27,7 @@ object FunctionDemo {
   }
 
 
-
+  //获取时间
   def getTime():Unit={
     debug("getTime")
     val now = new Date
@@ -59,6 +59,7 @@ object FunctionDemo {
     println(map.get("a"))
   }
 
+  //匹配模式
   def matchTest(x: Int): String = x match {
     case 1 => "one"
     case 2 => "two"
