@@ -65,10 +65,7 @@ object FunctionDemo {
     case _ => "many"
   }
 
-  // 删除注释
-  // 测试
-  // 添加测试2
-
+  // 添加主方法注释
   def main(args: Array[String]): Unit = {
     println(add(1,3))
     echo("a","b","c")
